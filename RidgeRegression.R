@@ -2,7 +2,7 @@
 
 
 library(openxlsx)
-estates <- read.xlsx("H:\\Desktop\\Python\\Myproject\\bioinformatics_Rproject\\data_xlsx\\estates.xlsx")
+estates <- read.xlsx("...\\data_xlsx\\estates.xlsx")
 estates <- na.omit(estates)
 
 library(caret)
