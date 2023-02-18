@@ -2,7 +2,7 @@
 # Goal is to observe any imprtovements in RMSE and MAE
 
 library(openxlsx)
-estates <- read.xlsx("H:\\Desktop\\Python\\Myproject\\bioinformatics_Rproject\\data_xlsx\\estates.xlsx")
+estates <- read.xlsx("...\\data_xlsx\\estates.xlsx")
 estates <- na.omit(estates)
 # Fit a lasso model and evaluate it with LOOCV
 library(caret)
